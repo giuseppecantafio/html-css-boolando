@@ -1,8 +1,3 @@
-/* dimensione immagini:
-width: 494px;
-height: 713px
-*/
-
 /* Reset */
 *{
     margin: 0;
@@ -125,7 +120,7 @@ main{
     background-repeat: no-repeat;
     background-size: contain;
 }
-/*Immagini overlay */
+/* Immagini overlay */
 .bg-overlay-1{
     width: 100%;
     height: 100%;
@@ -198,6 +193,8 @@ main{
 .background-6:hover .bg-overlay-6{
     visibility: visible;
 }
+
+/* Testo */
 .t-style-1{
     font-size: 8px;
     color: black;
