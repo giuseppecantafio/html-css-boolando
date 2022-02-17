@@ -30,8 +30,18 @@ main{
     display: inline-block;
     margin: 10px;
     margin-bottom: 0%;
-    background-color: rgb(252, 4, 231);
-
+    position: relative;
+}
+.like-it{
+    color: black;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    font-size: 15px;
+    text-align: center;
 }
 .text-box{
     height: 50px;
@@ -40,7 +50,6 @@ main{
     display: inline-block;
     margin: 10px;
     margin-top: 0%;
-    background-color: rgb(8, 4, 252);
 }
 
 /* Immagini base */
