@@ -11,6 +11,7 @@ height: 713px
 }
 /* General */
 body{
+    width: 1510px;
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -21,12 +22,10 @@ main{
 .row{
     font-size: 0%;
     padding: 0px;
-    border: 1px solid black;
 }
 .img-box{
     height: 262px;
     width: calc((100% / 3) - 20px);
-    border: 1px solid black;
     display: inline-block;
     margin: 10px;
     margin-bottom: 0%;
@@ -90,7 +89,6 @@ main{
 .text-box{
     height: 50px;
     width: calc((100% / 3) - 20px);
-    border: 1px solid black;
     display: inline-block;
     margin: 10px;
     margin-top: 0%;
@@ -199,4 +197,23 @@ main{
 }
 .background-6:hover .bg-overlay-6{
     visibility: visible;
+}
+.t-style-1{
+    font-size: 8px;
+    color: black;
+}
+.t-style-2{
+    font-size: 10px;
+    font-weight: bolder;
+    color: black;
+}
+.t-style-3{
+    font-size: 8px;
+    font-weight: bolder;
+    color: red;
+}
+.t-style-4{
+    font-size: 8px;
+    color: black;
+    text-decoration: line-through;
 }
