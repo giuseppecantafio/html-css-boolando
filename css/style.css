@@ -24,7 +24,7 @@ main{
     border: 1px solid black;
 }
 .img-box{
-    height: 265px;
+    height: 262px;
     width: calc((100% / 3) - 20px);
     border: 1px solid black;
     display: inline-block;
@@ -41,6 +41,50 @@ main{
     right: 0px;
     top: 10px;
     font-size: 15px;
+    text-align: center;
+}
+.label-50{
+    color: white;
+    background-color: #eb0037;
+    width: 30px;
+    height: 10px;
+    position: absolute;
+    left: 0px;
+    bottom: 10px;
+    font-size: 8px;
+    text-align: center;
+}
+.label-30{
+    color: white;
+    background-color: #eb0037;
+    width: 30px;
+    height: 10px;
+    position: absolute;
+    left: 0px;
+    bottom: 10px;
+    font-size: 8px;
+    text-align: center;
+}
+.label-sost{
+    color: white;
+    background-color: #00875a;
+    width: 60px;
+    height: 10px;
+    position: absolute;
+    left: 35px;
+    bottom: 10px;
+    font-size: 8px;
+    text-align: center;
+}
+.label-sost-alone{
+    color: white;
+    background-color: #00875a;
+    width: 60px;
+    height: 10px;
+    position: absolute;
+    left: 0px;
+    bottom: 10px;
+    font-size: 8px;
     text-align: center;
 }
 .text-box{
