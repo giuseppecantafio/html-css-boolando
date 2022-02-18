@@ -36,6 +36,7 @@ main{
     top: 10px;
     font-size: 15px;
     text-align: center;
+    z-index: 1;
 }
 .label-50{
     color: white;
@@ -47,6 +48,7 @@ main{
     bottom: 10px;
     font-size: 8px;
     text-align: center;
+    z-index: 1;
 }
 .label-30{
     color: white;
@@ -58,6 +60,7 @@ main{
     bottom: 10px;
     font-size: 8px;
     text-align: center;
+    z-index: 1;
 }
 .label-sost{
     color: white;
@@ -69,6 +72,7 @@ main{
     bottom: 10px;
     font-size: 8px;
     text-align: center;
+    z-index: 1;
 }
 .label-sost-alone{
     color: white;
@@ -80,6 +84,7 @@ main{
     bottom: 10px;
     font-size: 8px;
     text-align: center;
+    z-index: 1;
 }
 .text-box{
     height: 50px;
@@ -128,7 +133,7 @@ main{
     background-repeat: no-repeat;
     background-size: contain;
     visibility: hidden;
-    position: relative;
+    position: absolute;
 }
 .background-1:hover .bg-overlay-1{
     visibility: visible;
@@ -140,7 +145,7 @@ main{
     background-repeat: no-repeat;
     background-size: contain;
     visibility: hidden;
-    position: relative;
+    position: absolute;
 }
 .background-2:hover .bg-overlay-2{
     visibility: visible;
@@ -152,7 +157,7 @@ main{
     background-repeat: no-repeat;
     background-size: contain;
     visibility: hidden;
-    position: relative;
+    position: absolute;
 }
 .background-3:hover .bg-overlay-3{
     visibility: visible;
@@ -164,7 +169,7 @@ main{
     background-repeat: no-repeat;
     background-size: contain;
     visibility: hidden;
-    position: relative;
+    position: absolute;
 }
 .background-4:hover .bg-overlay-4{
     visibility: visible;
@@ -176,7 +181,7 @@ main{
     background-repeat: no-repeat;
     background-size: contain;
     visibility: hidden;
-    position: relative;
+    position: absolute;
 }
 .background-5:hover .bg-overlay-5{
     visibility: visible;
@@ -188,7 +193,7 @@ main{
     background-repeat: no-repeat;
     background-size: contain;
     visibility: hidden;
-    position: relative;
+    position: absolute;
 }
 .background-6:hover .bg-overlay-6{
     visibility: visible;
